@@ -39,18 +39,6 @@
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="specialization" class="col-sm-3 control-label">Specialization:</label>
-                            <div class="col-sm-9">
-                                <select class="form-control" name="specialization">
-                                    <option value="{{ $user->Specialization }}">{{ $spc->Specialization }}</option>
-                                    @foreach ($specializations as $item)
-                                        <option value="{{ $item->id }}">{{ $item->Specialization }}</option>
-                                    @endforeach
-
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group">
                             <label for="email2" class="col-sm-3 control-label">Registration Date:</label>
                             <div class="col-sm-9">
                                 <input type="text" class="form-control" id="email2" name=""

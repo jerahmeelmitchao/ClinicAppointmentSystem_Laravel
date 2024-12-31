@@ -28,8 +28,6 @@ class ProflController extends Controller
         $user->email = $request->email ?? $user->email;
         // Check for the mobile number
         $user->MobileNumber = !empty($request->mobileNumber) ? $request->mobileNumber : $user->MobileNumber;
-        $user->Specialization = $request->specialization ?? $user->Specialization;
-    
         $user->save();
     
         Alert::success('Success!', 'Profile Updated');

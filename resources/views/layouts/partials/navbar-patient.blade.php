@@ -38,7 +38,7 @@
                 </li>
                 
                 <li class="nav-item active">
-                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#adminPasswordModal">Doctor</a>
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#adminPasswordModal">Admin</a>
                 </li>
             </ul>
         </div>

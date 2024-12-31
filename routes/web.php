@@ -56,5 +56,4 @@ Route::post('specializations', [DoctorController::class, 'storeSpecialization'])
 
 
 
-
 require __DIR__ . '/auth.php';
